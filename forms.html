@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h2 {
+			background: blue;
+		}
+		div {
+			color: red;
+			font-size: 25px;
+			font-family: algerian;
+		}
+	</style>
+	<title>my form</title>
+</head>
+<body>
+	<div>
+		<form method="post" action="">
+			<h2>My First Form</h2>
+			<div>
+				<label> Name</label>
+				<input type="text" name="sname" placeholder="Enter your name" >
+			</div><br>
+			<div>
+				<label>Gender</label>
+				<input type="radio" name="gender" >Male
+                <input type="radio" name="gender">Female
+			</div><br>
+			<div>
+				<label>course</label>
+				<select name="scourse">
+					<option value="blank">--select course--</option>
+					<option value="cs">computer science</option>
+					<option value="BBIT">business IT</option>
+					<option value="cosf">computer forensics</option>
+				</select>
+			</div><br>
+			<div>
+				<label>Details</label>
+				<textarea name="sdetails" placeholder="tell us more about you"></textarea>
+			</div>
+			<div>
+				<button>submit</button>
+				<input type="submit" name="ssubmit" value="Save">
+			</div>
+	</div>
+</body>
+</html>
